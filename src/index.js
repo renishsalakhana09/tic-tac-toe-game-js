@@ -7,45 +7,28 @@ let playerX,playerO;
 let gameState = ["", "", "", "", "", "", "", "", ""];
 const winningMessage = () => {
     if(currentPlayer === "X"){
-        return `Player ${playerX} won!`;
+        return `Player ${playerX} Won!`;
     }else{
-        return `Player ${playerO} won!`;
+        return `Player ${playerO} Won!`;
     }
 }
 const drawMessage = () => `Game ended in a draw!`;
 const currentPlayerTurn = () => {
     if(currentPlayer === "O"){
-        return `It's ${playerO}'s turn`;
+        return `It's ${playerO}'S Turn`;
     }else{
-        return `It's ${playerX}'s turn`;
+        return `It's ${playerX}'S Turn`;
     }
 }
 
-
 acceptPlayerNames();
+
 statusDisplay.innerHTML = currentPlayerTurn();
-function updateCell() {
 
-}
-function changePlayers() {
-
-}
-function checkWinner() {
-
-}
-function cellClicked() {
-
-}
-function restartGame() {
-
-}
 function acceptPlayerNames(){
     playerX = prompt("Enter the Player1 Name(X):");
     playerO = prompt("Enter the Player2 Name(O):");
-}
-function selectFirstTurn(){
-
-}
+ }
 
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', cellClicked));
 
@@ -84,6 +67,7 @@ function cellClicked(clickedCellEvent) {
             [0, 4, 8],
             [2, 4, 6]
         ];
+
         function checkWinner() {
             let roundWon = false;
             for (let i = 0; i <= 7; i++) {
@@ -96,7 +80,7 @@ function cellClicked(clickedCellEvent) {
                 }
                 if (a === b && b === c) {
                     roundWon = true;
-                    break
+                    break;
                 }
             }
         if (roundWon) {
@@ -122,7 +106,6 @@ function cellClicked(clickedCellEvent) {
 
         function restartGame() {
             gameActive = true;
-           // currentPlayer = "X";
             gameState = ["", "", "", "", "", "", "", "", ""];
             statusDisplay.innerHTML = currentPlayerTurn();
             document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
@@ -134,16 +117,12 @@ function cellClicked(clickedCellEvent) {
          let firstTurn = ["X", "O"];
          currentPlayer = firstTurn[Math.floor(Math.random() * firstTurn.length)];
          checkForName();
-        
-}
-
-
-function checkForName() {
-    if (playerX === null || playerX === "") {
-        playerX = "X";
-    }
-    if (playerO === null || playerO === "") {
-        playerO = "O";
-    }
-}
-//added some new features to previous scripts while remarks by pavitar
+        }
+        function checkForName() {
+             if (playerX === null || playerX === "") {
+                playerX = "X";
+            }
+            if (playerO === null || playerO === "") {
+                 playerO = "O";
+                }
+            }
