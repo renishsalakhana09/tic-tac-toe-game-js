@@ -1,6 +1,7 @@
 # tic-tac-toe-game-js
 TIC TAC TOE GAME IMPLEMENTATION IN JavaScript
 
+Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac-toe-game-js/src/
 
 Rules of the Game
 
