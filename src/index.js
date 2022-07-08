@@ -138,8 +138,6 @@ function cellClicked(clickedCellEvent) {
 }
 
 
-
-
 function checkForName() {
     if (playerX === null || playerX === "") {
         playerX = "X";
@@ -148,3 +146,4 @@ function checkForName() {
         playerO = "O";
     }
 }
+//added some new features to previous scripts while remarks by pavitar
