@@ -5,7 +5,7 @@ Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac
 
 # Rules of the Game
 
-The game is to be played between two people (in this program between HUMAN and COMPUTER).
+*The game is to be played between two people (in this program between HUMAN and COMPUTER).
 
 One of the player chooses ‘O’ and the other ‘X’ to mark their respective cells.
 
