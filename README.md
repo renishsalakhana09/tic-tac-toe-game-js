@@ -3,7 +3,7 @@ TIC TAC TOE GAME IMPLEMENTATION IN JavaScript
 
 Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac-toe-game-js/src/
 
-Rules of the Game
+# Rules of the Game
 
 The game is to be played between two people (in this program between HUMAN and COMPUTER).
 
