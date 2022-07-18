@@ -1,5 +1,5 @@
 # tic-tac-toe-game-js
-##Tic Tac Toe game Implementation in JavaScript
+## `Tic Tac Toe game Implementation in JavaScript`
 
 Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac-toe-game-js/src/
 
