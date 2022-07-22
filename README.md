@@ -15,14 +15,19 @@ Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac
 
 #### :one:Accept the players names feature:
 
-![image](https://user-images.githubusercontent.com/104903815/177927567-fa5246a4-fe05-473c-9651-6c8d500e40d8.png)
+![image](https://user-images.githubusercontent.com/104903815/180447555-3969b4e6-8abc-49a3-8b37-ce33eea9283f.png)
+
 
 #### 2️⃣When one of the player won diplay it feature:
 
-![image](https://user-images.githubusercontent.com/104903815/179478205-61f730fe-158b-42a7-9620-03ddd85ae06e.png)
+![image](https://user-images.githubusercontent.com/104903815/180447688-9ee52dc6-d1b2-444b-84e3-374985eb4ca6.png)
 
-#### 3️⃣When game has drew (if no one wins)show game ended in draw feature :
 
-![image](https://user-images.githubusercontent.com/104903815/179478524-3f6fe857-6c86-4b40-bd6e-04529e8aa829.png)
+#### 3️⃣When game has drawn(if no one wins)show game ended in draw feature :
+
+![image](https://user-images.githubusercontent.com/104903815/180447940-842a447a-6d73-4457-82b0-2e8f402df58f.png)
+
+
+
 
 
