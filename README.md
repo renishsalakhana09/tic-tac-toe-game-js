@@ -3,7 +3,7 @@
 
 Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac-toe-game-js/src/
 
-## You can also enjoy the tune I set when things get updated like one player has won the match and etc...
+### You can also enjoy the tune I set when things get updated like one player has won the match and etc...
 
 ### :heavy_multiplication_x:Rules of the Game
 
