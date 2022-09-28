@@ -3,6 +3,8 @@
 
 Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac-toe-game-js/src/
 
+## You can also enjoy the tune I set when things get updated like one player has won the match and etc...
+
 ### :heavy_multiplication_x:Rules of the Game
 
 * The game is to be played between two people (in this program between two people by their name respectively).
@@ -12,6 +14,8 @@ Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac
 * The game starts with one of the players and the game ends when one of the players has one whole row/ column/ diagonal /anti-daiagonal filled with his/her respective character (‘O’ or ‘X’).
 
 * If no one wins the match, then the game is said to be draw.
+
+## 
 
 #### :one:Accept the players names feature:
 
