@@ -5,20 +5,20 @@ Want to play the game ? Click here : https://renishsalakhana09.github.io/tic-tac
 
 ### :heavy_multiplication_x:Rules of the Game
 
-* The game is to be played between two people (in this program between two people by their name).
+* The game is to be played between two people (in this program between two people by their name respectively).
 
 * One of the player chooses ‘O’ and the other ‘X’ to mark their respective cells.
 
-* The game starts with one of the players and the game ends when one of the players has one whole row/ column/ diagonal filled with his/her respective character (‘O’ or ‘X’).
+* The game starts with one of the players and the game ends when one of the players has one whole row/ column/ diagonal /anti-daiagonal filled with his/her respective character (‘O’ or ‘X’).
 
-* If no one wins, then the game is said to be draw.
+* If no one wins the match, then the game is said to be draw.
 
 #### :one:Accept the players names feature:
 
 ![image](https://user-images.githubusercontent.com/104903815/180447555-3969b4e6-8abc-49a3-8b37-ce33eea9283f.png)
 
 
-#### 2️⃣When one of the player won diplay it feature:
+#### 2️⃣when one of the players won the match diplay it feature:
 
 ![image](https://user-images.githubusercontent.com/104903815/180447688-9ee52dc6-d1b2-444b-84e3-374985eb4ca6.png)
 
