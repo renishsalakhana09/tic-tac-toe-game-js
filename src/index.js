@@ -11,21 +11,21 @@ restartBtn.forEach((element) => {
   });
 });
 
-var wonTone = new Audio("audio/winner.mp3");
+Array.from(restartBtn).forEach(
+  (element) => {
+    element.addEventListener("click", restartGame);
+  },
+  { once: true }
+);
+
+var winTone = new Audio("audio/winner.mp3");
 var tone = new Audio("audio/Tingg.wav");
 var drawTone = new Audio("audio/draw.wav");
 var restartTone = new Audio("audio/restart.wav");
 var acceptTone = new Audio("audio/accept.wav");
 
-Array.from(restartBtn).forEach(
-  (element) => {
-    restartTone.play();
-    element.addEventListener("click", restartGame, restartTone.play());
-  },
-  { once: true }
-);
-
 const cells = document.querySelectorAll(".cell"); //we store all cells to use it later
+
 const winningConditions = [
   [0, 1, 2],
   [3, 4, 5],
@@ -36,9 +36,13 @@ const winningConditions = [
   [0, 4, 8],
   [2, 4, 6],
 ];
+
 let gameActive = true; //game is active
+
 let currentPlayer = "X"; //we set initial player to X
+
 let playerX, playerO; //we store player names
+
 let gameState = ["", "", "", "", "", "", "", "", ""]; //we start the game
 
 const setTurnColor = () =>
@@ -48,10 +52,10 @@ const winningMessage = () => {
   //we set the winning message
   if (currentPlayer === "X") {
     //if current player is X
-    wonTone.play();
+    winTone.play();
     return `Player ${playerX} won!`;
   } else {
-    wonTone.play();
+    winTone.play();
     return `Player ${playerO} won!`;
   }
 };
@@ -166,7 +170,6 @@ function checkWinner() {
   let roundDraw = !gameState.includes(""); //not empty
   if (roundDraw) {
     drawTone.play();
-
     statusDisplay.innerHTML = drawMessage();
     gameActive = false; //and game is not active anymore
     return;
